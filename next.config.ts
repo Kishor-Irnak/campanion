@@ -5,9 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  // If your repo is kishor-irnak/campanion, use:
-  // basePath: "/campanion",
-  // assetPrefix: "/campanion",
+  basePath: "/campanion",
+  assetPrefix: "/campanion",
 };
 
 export default nextConfig;

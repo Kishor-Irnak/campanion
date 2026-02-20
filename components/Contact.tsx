@@ -8,7 +8,7 @@ export default function Contact() {
           Ready to save on agency fees?
         </h2>
         <p className="text-stone-400">
-          Subscribe to Campanion today and start submitting campaign requests
+          Subscribe to companion today and start submitting campaign requests
           immediately. Fill this out, and we'll send the onboarding link.
         </p>
       </div>

@@ -5,7 +5,7 @@ export default function Experience() {
     <section id="experience" className="max-w-4xl mx-auto px-6 mb-32">
       <h2 className="text-2xl font-semibold text-stone-100 tracking-tight mb-12 flex items-center gap-2">
         <Icon icon="solar:rocket-linear" className="text-stone-500" />
-        How Campanion Works
+        How companion Works
       </h2>
 
       <div className="relative border-l border-stone-800 ml-3 space-y-12">

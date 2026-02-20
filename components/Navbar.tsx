@@ -9,7 +9,7 @@ export default function Navbar() {
           href="/#home"
           className="flex items-center gap-2 group text-lg font-bold text-stone-100 tracking-tight"
         >
-          CAMPANION.
+          companion.
         </Link>
 
         <div className="hidden md:flex items-center gap-8 text-sm font-medium">

@@ -14,7 +14,7 @@ export default function About() {
         <div className="space-y-6 text-stone-400 leading-relaxed">
           <p>
             Agencies are slow, expensive, and require long-term contracts.
-            Freelancers are unreliable. We built <strong>Campanion</strong> to
+            Freelancers are unreliable. We built <strong>companion</strong> to
             act as your pocket campaign creation team.
           </p>
           <p>
@@ -32,7 +32,7 @@ export default function About() {
 
       <div className="bg-stone-900/30 border border-stone-800 rounded-2xl p-6">
         <h3 className="text-sm font-medium text-stone-200 mb-4 uppercase tracking-wider">
-          Why Campanion?
+          Why companion?
         </h3>
         <div className="space-y-4">
           <div>

@@ -11,7 +11,7 @@ export default function Hero() {
         Unlimited Campaigns Active
       </div>
 
-      <h1 className="md:text-7xl leading-[1.1] animate-fade-up delay-100 text-5xl font-semibold text-stone-100 tracking-tighter mb-6">
+      <h1 className="text-4xl sm:text-5xl md:text-7xl leading-[1.1] animate-fade-up delay-100 font-semibold text-stone-100 tracking-tighter mb-6">
         Unlimited{" "}
         <span className="text-transparent bg-clip-text bg-linear-to-r from-stone-100 to-stone-500">
           campaigns

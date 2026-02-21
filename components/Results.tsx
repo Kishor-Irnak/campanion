@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Icon } from "@iconify/react";
+import { getAssetPath } from "@/lib/utils";
 
 const stats = [
   { icon: "solar:chart-bold", label: "Leads Generated", value: "500+" },
@@ -88,7 +89,7 @@ export default function Results() {
               {/* Screenshot */}
               <div className="relative w-full">
                 <Image
-                  src={img.src}
+                  src={getAssetPath(img.src)}
                   alt={img.alt}
                   width={800}
                   height={500}

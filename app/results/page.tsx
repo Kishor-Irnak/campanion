@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
+import { getAssetPath } from "@/lib/utils";
 
 /* ─────────────────────────────────────────────────────────────
    ADD YOUR RESULT SCREENSHOTS HERE
@@ -159,7 +160,7 @@ export default function ResultsPage() {
                   {/* Screenshot */}
                   <div className="relative">
                     <Image
-                      src={result.src}
+                      src={getAssetPath(result.src)}
                       alt={result.title}
                       width={800}
                       height={600}
@@ -244,7 +245,7 @@ export default function ResultsPage() {
             {/* Image */}
             <div className="relative max-h-[75vh] overflow-y-auto">
               <Image
-                src={lightbox.src}
+                src={getAssetPath(lightbox.src)}
                 alt={lightbox.title}
                 width={1200}
                 height={900}

@@ -1,4 +1,5 @@
 import { Icon } from "@iconify/react";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -32,13 +33,13 @@ export default function Hero() {
           Start for ₹699/mo
           <Icon icon="solar:arrow-right-up-linear" />
         </a>
-        <a
+        <Link
           href="/results"
           className="sm:w-auto hover:bg-stone-800 hover:text-stone-100 transition-all flex items-center justify-center gap-2 font-medium text-stone-300 bg-stone-900 w-full border-stone-800 border rounded-lg pt-3 pr-6 pb-3 pl-6"
         >
           <Icon icon="solar:chart-bold" />
           See Results
-        </a>
+        </Link>
       </div>
     </section>
   );

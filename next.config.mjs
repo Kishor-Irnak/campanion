@@ -8,6 +8,7 @@ const nextConfig = {
   },
   basePath: isGithubActions ? "/campanion" : "",
   assetPrefix: isGithubActions ? "/campanion" : "",
+  trailingSlash: true,
 };
 
 export default nextConfig;

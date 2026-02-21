@@ -40,6 +40,9 @@ export default function Navbar() {
           >
             ₹699/mo Plan
           </Link>
+          <Link href="/blog" className="hover:text-stone-100 transition-colors">
+            Blog
+          </Link>
         </div>
 
         <Link
@@ -100,6 +103,13 @@ export default function Navbar() {
             className="text-sm font-medium text-blue-400"
           >
             ₹699/mo Plan
+          </Link>
+          <Link
+            href="/blog"
+            onClick={() => setIsOpen(false)}
+            className="text-sm font-medium text-stone-300 hover:text-stone-100"
+          >
+            Blog
           </Link>
           <Link
             href="#contact"

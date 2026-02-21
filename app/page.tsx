@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import Results from "@/components/Results";
 import TechStack from "@/components/TechStack";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
@@ -27,6 +28,7 @@ export default function Home() {
 
         <Hero />
         <TechStack />
+        <Results />
         <About />
         <Projects />
         <Experience />

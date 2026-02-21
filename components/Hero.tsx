@@ -33,11 +33,11 @@ export default function Hero() {
           <Icon icon="solar:arrow-right-up-linear" />
         </a>
         <a
-          href="#work"
+          href="/results"
           className="sm:w-auto hover:bg-stone-800 hover:text-stone-100 transition-all flex items-center justify-center gap-2 font-medium text-stone-300 bg-stone-900 w-full border-stone-800 border rounded-lg pt-3 pr-6 pb-3 pl-6"
         >
-          <Icon icon="solar:eye-linear" />
-          See Recent Campaigns
+          <Icon icon="solar:chart-bold" />
+          See Results
         </a>
       </div>
     </section>

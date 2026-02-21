@@ -20,8 +20,8 @@ export default function About() {
           <p>
             For a flat rate of ₹699, you get unlimited campaign requests. You
             add your request to the queue, and our expert media buyers and
-            copywriters build, structure, and deliver it back to you within 48
-            hours.
+            copywriters build, structure, and deliver your Meta or Google ad
+            campaign back to you within 48 hours.
           </p>
           <p>
             Once a campaign is delivered, we immediately start working on your
@@ -80,6 +80,9 @@ export default function About() {
             </span>
             <span className="text-xs border border-stone-700 px-2 py-1 rounded bg-stone-800/50 text-stone-300">
               A/B Test Structure
+            </span>
+            <span className="text-xs border border-stone-700 px-2 py-1 rounded bg-stone-800/50 text-stone-300">
+              Meta/Google Integration
             </span>
           </div>
         </div>

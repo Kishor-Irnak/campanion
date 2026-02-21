@@ -2,161 +2,88 @@ import { Icon } from "@iconify/react";
 
 export default function Testimonials() {
   return (
-    <section className="max-w-6xl mx-auto px-6 mb-32" id="pricing">
+    <section className="max-w-4xl mx-auto px-6 mb-32" id="pricing">
+      {/* Premium Header */}
       <div className="flex flex-col items-center mb-16 px-4">
-        <h2 className="text-4xl md:text-5xl font-semibold text-stone-100 tracking-tight mb-6 text-center">
-          One Flat Price.{" "}
-          <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-indigo-500">
-            Genuine Value.
-          </span>
+        <div className="inline-flex items-center gap-2 bg-stone-900/50 border border-stone-800 text-stone-300 text-xs font-semibold px-3 py-1.5 rounded-full mb-6 uppercase tracking-widest">
+          <span className="w-1.5 h-1.5 bg-blue-500 rounded-full animate-pulse"></span>
+          Simple Pricing
+        </div>
+        <h2 className="text-4xl md:text-5xl font-medium text-stone-100 tracking-tight mb-5 text-center">
+          One Flat Price. <span className="text-stone-500">Genuine Value.</span>
         </h2>
-        <p className="text-stone-400 text-lg max-w-2xl text-center leading-relaxed">
+        <p className="text-stone-400 text-base max-w-xl text-center leading-relaxed">
           Ditch the costly retainers and unpredictable hourly billing. Get an
           entire campaign creation team for a fraction of an agency's cost.
         </p>
       </div>
 
-      <div className="max-w-lg mx-auto relative group">
-        {/* Glow effect */}
-        <div className="absolute -inset-1 rounded-2xl bg-blue-500/20 opacity-50 blur-xl transition-all duration-500 group-hover:opacity-100 group-hover:blur-2xl"></div>
+      {/* Modern Minimalist Card */}
+      <div className="relative group mx-auto w-full">
+        {/* Subtle background glow */}
+        <div className="absolute -inset-px rounded-3xl bg-linear-to-b from-stone-800 to-stone-900/0 opacity-50 blur-sm pointer-events-none"></div>
 
-        {/* Card */}
-        <div className="bg-stone-950/80 backdrop-blur-md border border-stone-800/80 p-10 rounded-4xl relative shadow-2xl card-hover flex flex-col h-full">
-          {/* Badge */}
-          <div className="absolute top-0 right-8 -translate-y-1/2">
-            <span className="bg-blue-500/10 border border-blue-500/30 text-blue-400 text-xs font-bold px-3 py-1 rounded-full backdrop-blur-md tracking-wide uppercase">
-              Most Popular
-            </span>
+        <div className="relative bg-[#0a0a0a] backdrop-blur-xl border border-stone-800/60 rounded-3xl overflow-hidden shadow-2xl flex flex-col md:flex-row">
+          {/* Left side: Content & Features */}
+          <div className="p-8 md:p-12 flex-1 border-b md:border-b-0 md:border-r border-stone-800/60">
+            <h3 className="text-2xl font-medium text-stone-100 mb-2">
+              Standard Plan
+            </h3>
+            <p className="text-sm text-stone-400 mb-8 max-w-sm">
+              The essential subscription for modern, scaling brands ready to
+              launch campaigns faster.
+            </p>
+
+            <ul className="space-y-4">
+              {[
+                "1 Active Request at a time",
+                "Platforms: Meta Ads & Google Ads",
+                "Targeting & Account Structure Setup",
+                "Ad Copywriting Included",
+                "24 - 48h Delivery Average",
+                "Unlimited Revisions",
+              ].map((feature, i) => (
+                <li key={i} className="flex items-start gap-3">
+                  <Icon
+                    icon="solar:check-circle-line-duotone"
+                    className="text-stone-500 text-lg shrink-0 mt-0.5"
+                  />
+                  <span className="text-stone-300 text-sm">{feature}</span>
+                </li>
+              ))}
+            </ul>
           </div>
 
-          <div className="mb-8 border-b border-stone-800/80 pb-8 flex justify-between items-end">
-            <div>
-              <h3 className="text-2xl font-semibold text-stone-100 mb-2">
-                Standard Plan
-              </h3>
-              <p className="text-sm text-stone-400">
-                Perfect for scaling brands.
-              </p>
+          {/* Right side: Price & CTA */}
+          <div className="p-8 md:p-12 bg-stone-900/20 md:w-80 flex flex-col justify-center items-center md:items-start text-center md:text-left">
+            <div className="mb-8">
+              <span className="text-stone-500 font-medium text-lg align-top mr-1">
+                ₹
+              </span>
+              <span className="text-6xl font-semibold text-stone-100 tracking-tighter">
+                699
+              </span>
+              <span className="text-stone-500 text-sm block mt-2">
+                per month
+              </span>
             </div>
-            <div className="text-right flex flex-col items-end">
-              <div className="flex items-start justify-end gap-1">
-                <span className="text-xl font-medium text-stone-400 mt-1">
-                  ₹
-                </span>
-                <span className="text-5xl font-bold text-stone-100 tracking-tighter">
-                  699
-                </span>
-              </div>
-              <p className="text-sm text-stone-500 mt-1">
-                per month / cancel anytime
-              </p>
-            </div>
-          </div>
 
-          <ul className="space-y-5 mb-10 flex-1">
-            <li className="flex items-start gap-4">
-              <div className="mt-1 bg-blue-500/10 p-1 rounded-full shrink-0">
-                <Icon
-                  icon="solar:check-circle-bold"
-                  className="text-blue-500 text-xl"
-                />
-              </div>
-              <div>
-                <span className="text-stone-200 font-medium block">
-                  1 Active Request at a time
-                </span>
-                <span className="text-sm text-stone-500">
-                  We work on one task until it's perfect.
-                </span>
-              </div>
-            </li>
-            <li className="flex items-start gap-4">
-              <div className="mt-1 bg-blue-500/10 p-1 rounded-full shrink-0">
-                <Icon
-                  icon="solar:check-circle-bold"
-                  className="text-blue-500 text-xl"
-                />
-              </div>
-              <div>
-                <span className="text-stone-200 font-medium block">
-                  Unlimited Ad Platforms
-                </span>
-                <span className="text-sm text-stone-500">
-                  Meta, Google, TikTok, LinkedIn & more.
-                </span>
-              </div>
-            </li>
-            <li className="flex items-start gap-4">
-              <div className="mt-1 bg-blue-500/10 p-1 rounded-full shrink-0">
-                <Icon
-                  icon="solar:check-circle-bold"
-                  className="text-blue-500 text-xl"
-                />
-              </div>
-              <p className="text-stone-200 font-medium pt-1">
-                Ad Copywriting Included
-              </p>
-            </li>
-            <li className="flex items-start gap-4">
-              <div className="mt-1 bg-blue-500/10 p-1 rounded-full shrink-0">
-                <Icon
-                  icon="solar:check-circle-bold"
-                  className="text-blue-500 text-xl"
-                />
-              </div>
-              <p className="text-stone-200 font-medium pt-1">
-                Targeting & Account Structure Setup
-              </p>
-            </li>
-            <li className="flex items-start gap-4">
-              <div className="mt-1 bg-blue-500/10 p-1 rounded-full shrink-0">
-                <Icon
-                  icon="solar:clock-circle-bold"
-                  className="text-blue-500 text-xl"
-                />
-              </div>
-              <div>
-                <span className="text-stone-200 font-medium block">
-                  24 - 48h Delivery Average
-                </span>
-                <span className="text-sm text-stone-500">
-                  Fast turnarounds so you can launch faster.
-                </span>
-              </div>
-            </li>
-            <li className="flex items-start gap-4">
-              <div className="mt-1 bg-blue-500/10 p-1 rounded-full shrink-0">
-                <Icon
-                  icon="solar:refresh-circle-bold"
-                  className="text-blue-500 text-xl"
-                />
-              </div>
-              <div>
-                <span className="text-stone-200 font-medium block">
-                  Unlimited Revisions
-                </span>
-                <span className="text-sm text-stone-500">
-                  We keep iterating until you're satisfied.
-                </span>
-              </div>
-            </li>
-          </ul>
-
-          <a
-            href="#contact"
-            className="w-full relative group/btn flex items-center justify-center gap-2 bg-stone-100 text-stone-950 font-semibold py-4 rounded-xl hover:bg-white transition-all overflow-hidden mt-6"
-          >
-            <span className="relative z-10 flex items-center gap-2">
-              Start Your Subscription
+            <a
+              href="#contact"
+              className="w-full relative group/btn flex items-center justify-center gap-2 bg-stone-100 text-stone-950 text-sm font-semibold py-3.5 px-6 rounded-xl hover:bg-white hover:scale-[1.02] transition-all duration-300"
+            >
+              Start Subscription
               <Icon
                 icon="solar:arrow-right-linear"
                 className="transition-transform group-hover/btn:translate-x-1"
               />
-            </span>
-          </a>
-          <p className="text-center text-xs text-stone-500 mt-4">
-            No long-term contracts. Pause or cancel instantly.
-          </p>
+            </a>
+
+            <p className="text-xs text-stone-500 mt-5 w-full text-center">
+              Pause or cancel anytime. <br className="hidden md:block" /> No
+              long-term contracts.
+            </p>
+          </div>
         </div>
       </div>
     </section>

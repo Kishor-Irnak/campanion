@@ -23,8 +23,8 @@ export default function Experience() {
           <ul className="list-disc list-outside ml-4 text-sm text-stone-400 space-y-2 leading-relaxed marker:text-stone-600">
             <li>Sign up for the flat ₹699/month plan.</li>
             <li>
-              Give our team standard agency access to your ad accounts (Meta,
-              Google, TikTok, etc).
+              Give our team standard agency access to your ad accounts (Meta &
+              Google).
             </li>
             <li>
               Get invited to your dedicated client portal/Trello board where you

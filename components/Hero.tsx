@@ -12,15 +12,23 @@ export default function Hero() {
         Unlimited Campaigns Active
       </div>
 
-      <h1 className="text-4xl sm:text-5xl md:text-7xl leading-[1.1] animate-fade-up delay-100 font-semibold text-stone-100 tracking-tighter mb-6">
-        Unlimited{" "}
-        <span className="text-transparent bg-clip-text bg-linear-to-r from-stone-100 to-stone-500">
-          campaigns
-        </span>{" "}
-        for a flat fee.
+      <h1 className="animate-fade-up delay-100 font-bold text-stone-100 tracking-tight mb-6">
+        <span className="block text-2xl sm:text-3xl md:text-4xl text-stone-400 font-semibold mb-3 uppercase tracking-widest">
+          Profitable Campaign in 24 Hours
+        </span>
+        <span className="block text-2xl sm:text-3xl md:text-4xl text-stone-500 font-medium mb-4">
+          — or Get Your Money Back
+        </span>
+        <span className="block text-4xl sm:text-5xl md:text-7xl text-stone-100 font-extrabold tracking-tighter">
+          In Just{" "}
+          <span className="text-transparent bg-clip-text bg-linear-to-r from-green-400 to-emerald-400">
+            ₹699/-
+          </span>{" "}
+          Only
+        </span>
       </h1>
 
-      <p className="leading-relaxed animate-fade-up delay-200 text-lg text-stone-400 max-w-xl mr-auto mb-10 ml-auto">
+      <p className="leading-relaxed animate-fade-up delay-200 text-lg text-stone-400 max-w-xl mr-auto mb-6 ml-auto">
         Stop paying agencies thousands. Get unlimited, high-converting ad
         campaigns created for just ₹699/month. Pause or cancel anytime.
       </p>
@@ -40,6 +48,19 @@ export default function Hero() {
           <Icon icon="solar:chart-bold" />
           See Results
         </Link>
+      </div>
+
+      {/* Social proof stat */}
+      <div className="mt-8 flex items-center justify-center gap-3 animate-fade-up delay-300">
+        <div className="h-px w-12 bg-stone-800"></div>
+        <div className="flex items-center gap-2 text-stone-500 text-sm">
+          <Icon icon="solar:graph-up-bold" className="text-green-500" />
+          <span>
+            <span className="text-stone-300 font-bold">₹10Cr+</span> managed in
+            ad spend
+          </span>
+        </div>
+        <div className="h-px w-12 bg-stone-800"></div>
       </div>
     </section>
   );

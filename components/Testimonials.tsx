@@ -41,7 +41,7 @@ export default function Testimonials() {
                 "Targeting & Account Structure Setup",
                 "Ad Copywriting Included",
                 "24 - 48h Delivery Average",
-                "Unlimited Revisions",
+                "Professional Revisions",
               ].map((feature, i) => (
                 <li key={i} className="flex items-start gap-3">
                   <Icon

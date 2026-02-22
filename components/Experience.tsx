@@ -42,10 +42,10 @@ export default function Experience() {
             </h3>
           </div>
           <div className="text-sm text-stone-400 mb-4 font-medium">
-            Unlimited Queue
+            Priority Queue
           </div>
           <ul className="list-disc list-outside ml-4 text-sm text-stone-400 space-y-2 leading-relaxed marker:text-stone-600">
-            <li>Add as many campaign requests as you want to your queue.</li>
+            <li>Add your campaign requests to your queue.</li>
             <li>
               Just tell us the goal, the budget, and any creatives you have. We
               handle the targeting, copy, and structure.

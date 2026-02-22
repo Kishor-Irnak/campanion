@@ -9,21 +9,21 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "companion | Unlimited Ad Campaigns for ₹699/mo",
+  title: "companion | High-Converting Ad Campaigns for ₹699/mo",
   description:
-    "Stop paying agency retainers. Get unlimited, high-converting ad campaigns created for a flat fee of ₹699 per month. Pause or cancel anytime.",
+    "Stop paying agency retainers. Get expert, high-converting ad campaigns created for a flat fee of ₹699 per month. Pause or cancel anytime.",
   keywords: [
     "Ad Campaigns",
-    "Unlimited Marketing",
+    "Expert Marketing",
     "Media Buying",
     "Marketing Subscription",
     "companion",
   ],
   authors: [{ name: "companion" }],
   openGraph: {
-    title: "companion | Unlimited Ad Campaigns for ₹699/mo",
+    title: "companion | High-Converting Ad Campaigns for ₹699/mo",
     description:
-      "Get unlimited, high-converting ad campaigns created for a flat fee of ₹699 per month.",
+      "Get expert, high-converting ad campaigns created for a flat fee of ₹699 per month.",
     type: "website",
   },
 };

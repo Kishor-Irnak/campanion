@@ -18,7 +18,7 @@ export default function About() {
             act as your pocket campaign creation team.
           </p>
           <p>
-            For a flat rate of ₹699, you get unlimited campaign requests. You
+            For a flat rate of ₹699, you get high-quality campaign creation. You
             add your request to the queue, and our expert media buyers and
             copywriters build, structure, and deliver your Meta or Google ad
             campaign back to you within 48 hours.

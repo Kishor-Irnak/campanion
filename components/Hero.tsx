@@ -9,7 +9,7 @@ export default function Hero() {
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
           <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
         </span>
-        Unlimited Campaigns Active
+        High-Converting Campaigns Active
       </div>
 
       <h1 className="animate-fade-up delay-100 font-bold text-stone-100 tracking-tight mb-6">
@@ -29,8 +29,8 @@ export default function Hero() {
       </h1>
 
       <p className="leading-relaxed animate-fade-up delay-200 text-lg text-stone-400 max-w-xl mr-auto mb-6 ml-auto">
-        Stop paying agencies thousands. Get unlimited, high-converting ad
-        campaigns created for just ₹699/month. Pause or cancel anytime.
+        Stop paying agencies thousands. Get expert, high-converting ad campaigns
+        created for just ₹699/month. Pause or cancel anytime.
       </p>
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up delay-300">

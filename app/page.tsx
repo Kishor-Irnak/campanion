@@ -11,6 +11,7 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import RevealObserver from "@/components/RevealObserver";
 import SplineBackground from "@/components/SplineBackground";
+import WhatsAppCTA from "@/components/WhatsAppCTA";
 
 export default function Home() {
   return (
@@ -37,6 +38,9 @@ export default function Home() {
         <Contact />
         <Footer />
       </main>
+
+      {/* WhatsApp floating CTA */}
+      <WhatsAppCTA />
 
       {/* Scroll-reveal engine (runs after hydration) */}
       <RevealObserver />

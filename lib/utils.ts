@@ -6,8 +6,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export const getAssetPath = (path: string) => {
-  const isGithubActions = process.env.GITHUB_ACTIONS === "true";
-  const basePath = isGithubActions ? "/campanion" : "";
+  const basePath = ""; // Removed subfolder prefix as we are using a custom domain companion.evoclabs.com
 
   // If the path already has the base path or is external, return as is
   if (path.startsWith("http") || (basePath && path.startsWith(basePath))) {

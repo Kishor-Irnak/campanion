@@ -61,6 +61,11 @@ export default function Contact() {
         {/* Left Side: Copy & Info */}
         <div className="p-8 md:p-12 flex-1 border-b md:border-b-0 md:border-r border-stone-800/60 relative z-10 flex flex-col justify-between">
           <div>
+            <img
+              src="/apple-touch-icon.png"
+              alt="companion logo"
+              className="w-10 h-10 rounded-xl mb-6 shadow-2xl"
+            />
             <div className="inline-flex items-center gap-2 bg-stone-900/50 border border-stone-800 text-stone-300 text-xs font-semibold px-3 py-1.5 rounded-full mb-6 uppercase tracking-widest">
               <span className="w-1.5 h-1.5 bg-blue-500 rounded-full animate-pulse"></span>
               Get Started

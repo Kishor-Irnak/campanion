@@ -94,9 +94,16 @@ export default function BlogPage() {
             <Icon icon="solar:arrow-left-linear" className="text-base" />
             Back to Home
           </Link>
-          <span className="text-stone-100 font-semibold tracking-tight">
-            companion<span className="text-blue-400">.</span>
-          </span>
+          <div className="flex items-center gap-2">
+            <img
+              src="/apple-touch-icon.png"
+              alt="logo"
+              className="w-6 h-6 rounded-md"
+            />
+            <span className="text-stone-100 font-semibold tracking-tight">
+              companion<span className="text-blue-400">.</span>
+            </span>
+          </div>
           <div className="text-xs text-stone-500 font-medium">Blog</div>
         </div>
       </header>

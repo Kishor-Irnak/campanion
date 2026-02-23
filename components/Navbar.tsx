@@ -14,6 +14,11 @@ export default function Navbar() {
           href="/#home"
           className="flex items-center gap-2 group text-lg font-bold text-stone-100 tracking-tight"
         >
+          <img
+            src="/apple-touch-icon.png"
+            alt="companion logo"
+            className="w-8 h-8 rounded-lg"
+          />
           companion.
         </Link>
 

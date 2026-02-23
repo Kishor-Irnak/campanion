@@ -11,6 +11,11 @@ export default function Footer() {
           {/* Brand & Tagline */}
           <div className="space-y-3">
             <div className="flex items-center gap-2">
+              <img
+                src="/apple-touch-icon.png"
+                alt="companion logo"
+                className="w-6 h-6 rounded-md"
+              />
               <span className="text-xl font-bold tracking-tighter text-stone-100 italic">
                 companion
                 <span className="text-blue-500 not-italic">.</span>

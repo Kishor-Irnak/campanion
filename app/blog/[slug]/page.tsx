@@ -485,8 +485,13 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
           </Link>
           <Link
             href="/"
-            className="text-stone-100 font-semibold tracking-tight"
+            className="flex items-center gap-2 text-stone-100 font-semibold tracking-tight"
           >
+            <img
+              src="/apple-touch-icon.png"
+              alt="logo"
+              className="w-5 h-5 rounded-md"
+            />
             companion<span className="text-blue-400">.</span>
           </Link>
           <div className="flex items-center gap-2 text-xs text-stone-500">

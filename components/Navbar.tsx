@@ -45,13 +45,15 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <Link
-          href="#contact"
+        <a
+          href="https://wa.me/919548833953?text=I%20want%20to%20start%20a%20campaign%20for%20%E2%82%B9699%2Fmo"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden md:flex items-center gap-2 hover:bg-stone-200 transition-colors text-xs font-bold text-stone-950 bg-stone-100 rounded-full pt-2 pr-4 pb-2 pl-4 uppercase tracking-wide"
         >
           Subscribe Now
           <Icon icon="solar:arrow-right-linear" />
-        </Link>
+        </a>
 
         {/* Mobile Hamburger */}
         <button
@@ -111,13 +113,15 @@ export default function Navbar() {
           >
             Blog
           </Link>
-          <Link
-            href="#contact"
+          <a
+            href="https://wa.me/919548833953?text=I%20want%20to%20start%20a%20campaign%20for%20%E2%82%B9699%2Fmo"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setIsOpen(false)}
             className="flex items-center justify-center gap-2 bg-stone-100 text-stone-950 rounded-xl py-3.5 mt-2 text-sm font-bold transition-transform active:scale-95"
           >
             Subscribe Now <Icon icon="solar:arrow-right-linear" />
-          </Link>
+          </a>
         </div>
       </div>
     </nav>

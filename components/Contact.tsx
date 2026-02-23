@@ -70,9 +70,8 @@ export default function Contact() {
               <span className="text-stone-500">agency fees.</span>
             </h2>
             <p className="text-stone-400 text-sm leading-relaxed max-w-sm mb-8 relative">
-              Subscribe to companion today and start submitting campaign
-              requests immediately. Fill this out, and we&apos;ll send your
-              onboarding link.
+              Get started in seconds — just ping us on WhatsApp and we&apos;ll
+              have your campaign live in 24 hours.
             </p>
           </div>
 
@@ -345,10 +344,39 @@ export default function Contact() {
                 </p>
               )}
 
+              {/* Primary WhatsApp CTA */}
+              <a
+                href="https://wa.me/919548833953?text=I%20want%20to%20start%20a%20campaign%20for%20%E2%82%B9699%2Fmo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full flex items-center justify-center gap-2.5 bg-[#25D366] hover:bg-[#22c55e] text-white text-sm font-semibold mt-6 py-4 rounded-xl transition-all duration-300 hover:scale-[1.01] shadow-[0_4px_20px_rgba(37,211,102,0.3)]"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 32 32"
+                  width="20"
+                  height="20"
+                  fill="#fff"
+                  aria-hidden="true"
+                >
+                  <path d="M16 .5C7.44.5.5 7.44.5 16c0 2.82.74 5.47 2.02 7.77L.5 31.5l7.93-2.07A15.42 15.42 0 0016 31.5C24.56 31.5 31.5 24.56 31.5 16S24.56.5 16 .5zm0 28a13.4 13.4 0 01-6.84-1.87l-.49-.29-5.1 1.34 1.36-4.96-.32-.51A13.38 13.38 0 012.5 16C2.5 8.54 8.54 2.5 16 2.5S29.5 8.54 29.5 16 23.46 28.5 16 28.5zm7.34-10.13c-.4-.2-2.38-1.17-2.75-1.3-.37-.13-.63-.2-.9.2s-1.03 1.3-1.27 1.57c-.23.27-.47.3-.87.1a11 11 0 01-3.23-1.99 12.1 12.1 0 01-2.24-2.79c-.23-.4-.02-.62.18-.82.18-.18.4-.47.6-.7.2-.23.27-.4.4-.66.13-.27.07-.5-.03-.7-.1-.2-.9-2.17-1.23-2.97-.32-.78-.65-.67-.9-.68h-.76c-.27 0-.7.1-1.06.5s-1.4 1.37-1.4 3.34 1.44 3.87 1.64 4.14c.2.27 2.83 4.32 6.86 6.06.96.41 1.71.66 2.3.84.96.31 1.84.26 2.53.16.77-.12 2.38-.97 2.72-1.91.33-.94.33-1.74.23-1.91-.1-.17-.37-.27-.77-.47z" />
+                </svg>
+                Chat on WhatsApp — Get Started
+              </a>
+
+              {/* Divider */}
+              <div className="flex items-center gap-3 mt-4">
+                <div className="flex-1 h-px bg-stone-800"></div>
+                <span className="text-stone-600 text-xs">
+                  or fill the form below
+                </span>
+                <div className="flex-1 h-px bg-stone-800"></div>
+              </div>
+
               <button
                 type="submit"
                 disabled={status === "loading"}
-                className="w-full relative group/btn flex items-center justify-center gap-2 bg-stone-100 text-stone-950 text-sm font-semibold mt-6 py-4 rounded-xl hover:bg-white hover:scale-[1.01] transition-all duration-300 disabled:opacity-60 disabled:cursor-not-allowed disabled:scale-100"
+                className="w-full relative group/btn flex items-center justify-center gap-2 bg-stone-900 border border-stone-700 text-stone-300 text-sm font-semibold py-3.5 rounded-xl hover:bg-stone-800 hover:text-stone-100 transition-all duration-300 disabled:opacity-60 disabled:cursor-not-allowed"
               >
                 {status === "loading" ? (
                   <>
@@ -360,7 +388,7 @@ export default function Contact() {
                   </>
                 ) : (
                   <>
-                    Start for ₹699
+                    Send via Form
                     <Icon
                       icon="solar:arrow-right-linear"
                       className="transition-transform group-hover/btn:translate-x-1"

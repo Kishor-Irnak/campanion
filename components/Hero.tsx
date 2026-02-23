@@ -37,7 +37,9 @@ export default function Hero() {
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up delay-300">
         <a
-          href="#pricing"
+          href="https://wa.me/919548833953?text=I%20want%20to%20start%20a%20campaign%20for%20%E2%82%B9699%2Fmo"
+          target="_blank"
+          rel="noopener noreferrer"
           className="w-full sm:w-auto px-6 py-3 bg-stone-100 text-stone-950 font-medium rounded-lg hover:bg-stone-200 transition-all flex items-center justify-center gap-2"
         >
           Start for ₹699/mo

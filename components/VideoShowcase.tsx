@@ -6,7 +6,7 @@ export default function VideoShowcase() {
       <div className="max-w-5xl mx-auto">
         {/* Glow behind card */}
         <div className="relative group">
-          <div className="absolute -inset-1 bg-gradient-to-br from-blue-500/15 via-transparent to-emerald-500/15 rounded-3xl blur-2xl opacity-60 group-hover:opacity-90 transition-opacity duration-700 pointer-events-none"></div>
+          <div className="absolute -inset-1 bg-linear-to-br from-blue-500/15 via-transparent to-emerald-500/15 rounded-3xl blur-2xl opacity-60 group-hover:opacity-90 transition-opacity duration-700 pointer-events-none"></div>
 
           {/* Card */}
           <div className="relative rounded-2xl border border-stone-800 overflow-hidden shadow-2xl transition-all duration-500 hover:border-stone-700">

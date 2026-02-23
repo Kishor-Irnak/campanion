@@ -543,12 +543,14 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
             Flat ₹699. No retainer. Meta Ads & Google Ads — built by experts and
             delivered to your account as a ready-to-publish draft.
           </p>
-          <Link
-            href="/#contact"
+          <a
+            href="https://wa.me/919548833953?text=I%20want%20to%20start%20a%20campaign%20for%20%E2%82%B9699%2Fmo"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-stone-100 text-stone-950 font-bold px-6 py-3 rounded-xl hover:bg-white transition-all hover:scale-[1.02] text-sm"
           >
             Start for ₹699 <Icon icon="solar:arrow-right-linear" />
-          </Link>
+          </a>
         </div>
       </main>
     </div>

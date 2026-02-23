@@ -114,7 +114,6 @@ export default function LoginPage() {
       <div className="w-full max-w-sm bg-stone-900/50 border border-stone-800 rounded-2xl p-8">
         <h1 className="text-stone-100 font-bold text-2xl mb-1">Admin Login</h1>
         <p className="text-stone-500 text-sm mb-6">Companion Dashboard</p>
-
         <form onSubmit={handleLogin} className="space-y-4">
           <div>
             <label className="text-[11px] uppercase tracking-widest text-stone-500 font-semibold">
@@ -153,6 +152,7 @@ export default function LoginPage() {
             {loading ? "Signing in…" : "Sign In →"}
           </button>
         </form>
+        s
       </div>
     </div>
   );

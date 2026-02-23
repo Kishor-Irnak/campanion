@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
 import { notFound } from "next/navigation";
@@ -463,6 +464,47 @@ const posts: Record<
 
 export async function generateStaticParams() {
   return Object.keys(posts).map((slug) => ({ slug }));
+}
+
+const SITE_URL = "https://companion.evoclabs.com";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
+  const post = posts[params.slug];
+  if (!post) return {};
+
+  const url = `${SITE_URL}/blog/${params.slug}/`;
+  return {
+    title: post.title,
+    description: `${post.title} — Expert marketing insights from companion. Category: ${post.category}. ${post.readTime}.`,
+    alternates: { canonical: url },
+    openGraph: {
+      type: "article",
+      url,
+      title: post.title,
+      description: `${post.title} — Expert marketing insights from companion.`,
+      siteName: "companion",
+      publishedTime: post.date,
+      tags: post.tags,
+      images: [
+        {
+          url: `${SITE_URL}/android-chrome-512x512.png`,
+          width: 512,
+          height: 512,
+          alt: post.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary",
+      title: post.title,
+      description: `${post.title} — companion blog.`,
+      images: [`${SITE_URL}/android-chrome-512x512.png`],
+    },
+  };
 }
 
 export default function BlogPost({ params }: { params: { slug: string } }) {

@@ -10,7 +10,7 @@ export default function VideoShowcase() {
 
           {/* Card */}
           <div className="relative rounded-2xl border border-stone-800 overflow-hidden shadow-2xl transition-all duration-500 hover:border-stone-700">
-            <div className="h-[2px] w-full bg-gradient-to-r from-transparent via-blue-500/50 to-transparent"></div>
+            <div className="h-[2px] w-full bg-linear-to-r from-transparent via-blue-500/50 to-transparent"></div>
 
             {/* 16:9 responsive wrapper */}
             <div
@@ -28,14 +28,14 @@ export default function VideoShowcase() {
                   width: "100%",
                   height: "100%",
                 }}
-                src="https://www.youtube.com/embed/TBTwYQdy4h8?autoplay=1&mute=1&loop=1&playlist=TBTwYQdy4h8&controls=1&rel=0&modestbranding=1&vq=hd1080"
+                src="https://www.youtube.com/embed/S15o8nqN4Oc?autoplay=1&mute=1&loop=1&playlist=S15o8nqN4Oc&controls=1&rel=0&modestbranding=1&vq=hd1080"
                 title="Evoc Companion"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
             </div>
 
-            <div className="h-[2px] w-full bg-gradient-to-r from-transparent via-emerald-500/30 to-transparent"></div>
+            <div className="h-[2px] w-full bg-linear-to-r from-transparent via-emerald-500/30 to-transparent"></div>
           </div>
         </div>
       </div>

@@ -36,15 +36,13 @@ export default function Hero() {
       </p>
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up delay-300">
-        <a
-          href="https://wa.me/919548833953?text=I%20want%20to%20start%20a%20campaign%20for%20%E2%82%B9699%2Fmo"
-          target="_blank"
-          rel="noopener noreferrer"
+        <Link
+          href="#contact"
           className="w-full sm:w-auto px-6 py-3 bg-stone-100 text-stone-950 font-medium rounded-lg hover:bg-stone-200 transition-all flex items-center justify-center gap-2"
         >
           Start for ₹699/mo
           <Icon icon="solar:arrow-right-up-linear" />
-        </a>
+        </Link>
         <Link
           href="/results"
           className="sm:w-auto hover:bg-stone-800 hover:text-stone-100 transition-all flex items-center justify-center gap-2 font-medium text-stone-300 bg-stone-900 w-full border-stone-800 border rounded-lg pt-3 pr-6 pb-3 pl-6"

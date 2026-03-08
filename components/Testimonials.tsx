@@ -1,6 +1,7 @@
 "use client";
 
 import { Icon } from "@iconify/react";
+import Link from "next/link";
 
 export default function Testimonials() {
   return (
@@ -70,10 +71,8 @@ export default function Testimonials() {
               </span>
             </div>
 
-            <a
-              href="https://wa.me/919548833953?text=I%20want%20to%20start%20a%20campaign%20for%20%E2%82%B9699%2Fmo"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="#contact"
               className="w-full relative group/btn flex items-center justify-center gap-2 bg-stone-100 text-stone-950 text-sm font-semibold py-3.5 px-6 rounded-xl hover:bg-white hover:scale-[1.02] transition-all duration-300"
             >
               Start Subscription
@@ -81,7 +80,7 @@ export default function Testimonials() {
                 icon="solar:arrow-right-linear"
                 className="transition-transform group-hover/btn:translate-x-1"
               />
-            </a>
+            </Link>
 
             <p className="text-xs text-stone-500 mt-5 w-full text-center">
               Pause or cancel anytime. <br className="hidden md:block" /> No

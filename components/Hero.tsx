@@ -37,7 +37,7 @@ export default function Hero() {
 
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up delay-300">
         <Link
-          href="#contact"
+          href="/contact"
           className="w-full sm:w-auto px-6 py-3 bg-stone-100 text-stone-950 font-medium rounded-lg hover:bg-stone-200 transition-all flex items-center justify-center gap-2"
         >
           Start for ₹699/mo

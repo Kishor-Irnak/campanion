@@ -72,7 +72,7 @@ export default function Testimonials() {
             </div>
 
             <Link
-              href="#contact"
+              href="/contact"
               className="w-full relative group/btn flex items-center justify-center gap-2 bg-stone-100 text-stone-950 text-sm font-semibold py-3.5 px-6 rounded-xl hover:bg-white hover:scale-[1.02] transition-all duration-300"
             >
               Start Subscription

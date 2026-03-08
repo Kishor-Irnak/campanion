@@ -591,7 +591,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
             delivered to your account as a ready-to-publish draft.
           </p>
           <Link
-            href="/#contact"
+            href="/contact"
             className="inline-flex items-center gap-2 bg-stone-100 text-stone-950 font-bold px-6 py-3 rounded-xl hover:bg-white transition-all hover:scale-[1.02] text-sm"
           >
             Start for ₹699 <Icon icon="solar:arrow-right-linear" />

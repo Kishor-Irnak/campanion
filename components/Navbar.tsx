@@ -51,7 +51,7 @@ export default function Navbar() {
         </div>
 
         <Link
-          href="#contact"
+          href="/contact"
           className="hidden md:flex items-center gap-2 hover:bg-stone-200 transition-colors text-xs font-bold text-stone-950 bg-stone-100 rounded-full pt-2 pr-4 pb-2 pl-4 uppercase tracking-wide"
         >
           Subscribe Now
@@ -117,7 +117,7 @@ export default function Navbar() {
             Blog
           </Link>
           <Link
-            href="#contact"
+            href="/contact"
             onClick={() => setIsOpen(false)}
             className="flex items-center justify-center gap-2 bg-stone-100 text-stone-950 rounded-xl py-3.5 mt-2 text-sm font-bold transition-transform active:scale-95"
           >
